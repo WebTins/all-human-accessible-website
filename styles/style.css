@@ -1,3 +1,4 @@
+/* Root kleuren voor de huisstijl */
 :root {
     --lichtblauw: hsl(221, 23%, 76%);
     --blauw: hsl(239, 35%, 30%);
@@ -5,11 +6,13 @@
     --wit: hsl(0, 0%, 100%);
 }
 
+/* body van de website */
 body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header waar content bovenaan de pagina staat */
 header {
     border-radius: 20px;
     background-color: var(--lichtblauw);
@@ -20,6 +23,7 @@ header {
     padding: 1rem 0;
 }
 
+/* Logo van de buurtcampus */
 .logo {
     width: 100%;
     max-width: 400px;
@@ -62,6 +66,13 @@ header {
     text-align: center;
     text-decoration: none;
     color: var(--blauw);
+}
+
+h1 {
+    display: flex;
+    color: var(--blauw);
+    align-items: center;
+    justify-content: center;
 }
 
 .news-container {
