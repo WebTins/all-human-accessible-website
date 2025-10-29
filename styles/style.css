@@ -48,7 +48,7 @@ header {
     display: none;
     position: absolute;
     width: 100%;
-    max-width: 55px;
+    max-width: 58px;
     bottom: 0;
     left: 24%;
     
@@ -197,12 +197,14 @@ header {
     margin: 0;
 
     @media (min-width: 834px) {
+        font-size: 18px;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
 
     @media (min-width: 1440px) {
+        font-size: 20px;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -232,6 +234,12 @@ h1 {
     @media (min-width: 834px) {
         display: grid;
         grid-template-columns: repeat(2, 1fr)
+    }
+
+    @media (min-width: 1440px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr)
+        
     }
     
 }
