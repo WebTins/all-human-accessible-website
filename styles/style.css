@@ -31,6 +31,7 @@ header {
     height: auto;
 }
 
+/* Illustraties van de huisstijlgids */
 .huisje {
     display: none;
     position: absolute;
@@ -221,15 +222,43 @@ header {
     color: var(--blauw);
 }
 
-/* h1 Heading */
-h1 {
-    display: flex;
-    color: var(--blauw);
-    align-items: center;
-    justify-content: center;
+/* Filter, H1 en Archief  */
+.top-bar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 0;
 }
 
+/* H1 styling */
+.top-bar h1 {
+  flex: 1; 
+  text-align: center;
+  color: var(--blauw);
+}
 
+/* Filterknop en archief knop styling*/
+.filter-knop,
+.archief-knop {
+  background-color: var(--blauw);
+  color: var(--wit);
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect op de filter en archief knoppen */
+.filter-knop:hover,
+.archief-knop:hover {
+  background-color: var(--wit);
+  color: var(--blauw);
+  border: 2px solid var(--blauw);
+}
+
+/* News-container responsiveness */
 .news-container {
     @media (min-width: 834px) {
         display: grid;
@@ -243,6 +272,7 @@ h1 {
     }
     
 }
+
 
 .article-content
  {
