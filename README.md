@@ -29,6 +29,7 @@ Gebruikers krijgen een box te zien met een afbeelding, datum, titel en beschrijv
 
 ## Kenmerken
 
+De technieken die ik gebruik voor de website is "Grid" en "Flex" om de boxen naast en onder elkaar te zetten
 
 ## Bronnen
 
