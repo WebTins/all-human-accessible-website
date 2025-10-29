@@ -238,7 +238,7 @@ header {
 }
 
 /* Filterknop en archief knop styling*/
-/* .filter-knop,
+.filter-knop,
 .archief-knop {
   background-color: var(--blauw);
   color: var(--wit);
@@ -248,15 +248,15 @@ header {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-} */
+}
 
 /* Hover effect op de filter en archief knoppen */
-/* .filter-knop:hover,
+.filter-knop:hover,
 .archief-knop:hover {
   background-color: var(--wit);
   color: var(--blauw);
   border: 2px solid var(--blauw);
-} */
+}
 
 /* News-container responsiveness */
 .news-container {
