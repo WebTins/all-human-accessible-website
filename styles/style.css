@@ -13,7 +13,8 @@ body {
 }
 
 /* Header waar content bovenaan de pagina staat */
-header {
+header {    
+    position: relative;
     border-radius: 20px;
     background-color: var(--lichtblauw);
     flex-direction: column;
@@ -26,10 +27,158 @@ header {
 /* Logo van de buurtcampus */
 .logo {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
 }
 
+.huisje {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 50px;
+    bottom: 0;
+    left: 10%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.ladder {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 55px;
+    bottom: 0;
+    left: 24%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.wolk {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 25%;
+    right: 1%;
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.wolk2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 10%;
+    right: 15%;
+    rotate: 180deg;
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.wolk3 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 100px;
+    top: 15%;
+    right: 28%;
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.vogel {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 25px;
+    top: 10%;
+    right: 8%;
+    transform: scale(-1, 1);
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.vogel2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 25px;
+    top: 20%;
+    right: 25%;
+    transform: scale(-1, 1);
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.boom {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 80px;
+    bottom: -5px;
+    right: 7%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.boom2 {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 50px;
+    bottom: -3px;
+    right: 6%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.kat {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 25px;
+    bottom: 0;
+    right: 15%;
+    
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+.oranjekat {
+    display: none;
+    position: absolute;
+    width: 100%;
+    max-width: 20px;
+    bottom: 0;
+    right: 12%;
+    transform: scale(-1, 1);
+
+    @media (min-width: 834px){
+        display: block;
+    }
+}
+
+/* Locaties */
 .locaties {
     display: flex;
     justify-content: center;
@@ -38,6 +187,7 @@ header {
     margin: 1;
 }
 
+/* Navigatie */
 .nav ul {
     list-style-type: none;
     font-weight: 600;
@@ -59,6 +209,7 @@ header {
     }
 }
 
+/* alle a elementen van de nav */
 .nav a {
     display: block;
     text-decoration: none;
@@ -68,12 +219,14 @@ header {
     color: var(--blauw);
 }
 
+/* h1 Heading */
 h1 {
     display: flex;
     color: var(--blauw);
     align-items: center;
     justify-content: center;
 }
+
 
 .news-container {
     @media (min-width: 834px) {
@@ -97,8 +250,6 @@ h1 {
         display: flex;
         height: auto;
         border-radius: 25px;
-        padding: 1rem;
-        margin: 1rem;
     }
 }
 
@@ -108,6 +259,7 @@ h1 {
     height: 10rem;
     object-fit: cover;
     border-radius: 8px;
+    object-position:var(--op-x, 50%) var(--op-y, 50%);
 }
 
 .datum {
@@ -124,6 +276,7 @@ h2 {
 /* Beschrijving van het artikel */
 .beschrijving {
     line-height: 1.4;
+    flex-grow: 1;
 }
 
 .flexbox-content {
