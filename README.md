@@ -1,8 +1,5 @@
 # Accessible Website
-
-Ontwerp en maak voor een opdrachtgever een component/pagina/site toegankelijk volgens WCAG richtlijnen.
-
-De instructie van deze leertaak staat in [INSTRUCTIONS](https://github.com/fdnd-task/all-human-accessible-website/blob/main/docs/INSTRUCTIONS.md)
+De opdracht is om alle doelgroepen van de buurtcampus een nieuwe look te geven voor de digitale krant. Het doel is dan om ook de website toegankelijk te maken voor iedereen met of zonder beperking en daarbij is het ook van belang dat de nieuwe look iedereen aanspreekt. 
 
 ## Inhoudsopgave
 
@@ -16,15 +13,17 @@ Bekijk hier de [website!](https://webtins.github.io/all-human-accessible-website
 
 Bekijk hier het [ontwerp!](https://www.figma.com/design/GRdLpkhxYTfgDDJRlVFulP/Untitled?node-id=0-1&t=cJJYe3mF9nVLl5ae-1)
 
-Het overzicht van alle kranten heeft een stijling waar alle artikelen in een box zitten met een datum, titel en beschrijving. Alle doelgroepen horen een duidelijk overzicht te krijgen met de juiste kleuren die ze aanspreken. Bovenaan de pagina krijgen gebruikers het logo te zien van de Buurtcampus waar ze ook gelijk kunnen navigeren naar een andere buurt die krant artikelen heeft die gericht zijn voor de geselecteerde buurt. Op dit moment functioneren de knoppen nog niet bij de navigatie maar het is wel de bedoeling dat gebruikers naar een andere buurt kunnen navigeren.
+Ik heb als eerst nieuwe ontwerpen bedacht waar ik kleuren heb gebruikt die in de huisstijlgids staan. De reden dat ik deze kleuren heb gebruikt is om de website een digitale krant gevoel te geven zodat bezoekers het gevoel krijgen alsof ze echt een krant aan het lezen zijn. Ook heb ik gebruik gemaakt van illustraties die de leegruimtes opvullen en een mooie opmaak geven, op deze manier geeft het de website een vrolijke uitstraling.
 
-<img width="488" height="184" alt="image" src="https://github.com/user-attachments/assets/7df2d9d3-8986-4ae7-94b7-69cceed1cb60" />
+<img width="1354" height="780" alt="image" src="https://github.com/user-attachments/assets/a1ad27fd-9ede-4044-8fbc-e69efd669a28" />
 
----
+<img width="1898" height="845" alt="image" src="https://github.com/user-attachments/assets/bb7b5e4b-892c-4075-878e-b7944b0170b9" />
 
-Gebruikers krijgen een box te zien met een afbeelding, datum, titel en beschrijving om de krant artikelen te kunnen lezen. Als gebruikers het artikel interressant vinden, dan kunnen ze op de "Lees meer" knop drukken om het hele artikel te kunnen lezen.
+----
 
-<img width="364" height="813" alt="image" src="https://github.com/user-attachments/assets/75c550c8-05b6-4b42-a1cc-0a43b6cc598f" />
+Ik heb ook een toegankelijkheids test uitgevoerd op de website en uit de test resultaten zijn gebleken dat het tot nu toe 100% toegankelijk is en dat betekent ook dat het contrast een goede verhouding heeft en dat de plaatjes een alt tributes hebben die uitleggen waar de afbeeldingen over gaan.
+
+<img width="861" height="310" alt="image" src="https://github.com/user-attachments/assets/42a15e3d-9638-4935-8f88-a0653755882e" />
 
 
 ## Kenmerken
