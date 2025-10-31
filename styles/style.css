@@ -223,7 +223,7 @@ header {
 }
 
 /* Filter, H1 en Archief  */
-.top-bar {
+.boven-bar {
   display: flex;
   justify-content: space-between; 
   align-items: center; 
@@ -231,8 +231,7 @@ header {
 }
 
 /* H1 styling */
-.top-bar h1 {
-  flex: 1; 
+.boven-bar h1 {
   text-align: center;
   color: var(--blauw);
 }
